@@ -1,9 +1,6 @@
 import styles from './Post.module.css';
 
-function Post(props) {
-
-    const author = props.author;
-    const body = props.body;
+function Post({ author, body }) {
 
     return (
         <li className={styles.post}>
