@@ -11,3 +11,5 @@ dist/
 .vscode-test
 
 *.zip
+
+.DS_Store
